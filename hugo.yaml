@@ -1,4 +1,64 @@
-baseURL: https://example.org/
+baseURL: https://thatdns.dev/
 languageCode: en-us
-title: Divyanshu (that's me)
+title: ThatDNS
 theme: ["PaperMod"]
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  env: production
+  description: "Hello, DNS here."
+  author: ThatDNS
+  
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  
+  footer:
+    text: "Written with coffee and a little bit of magic!"
+  
+  assets:
+    favicon: "/favicon.png"
+    favicon16x16: "/favicon.png"
+    favicon32x32: "/favicon.png"
+    apple_touch_icon: "/favicon.png"
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 20
+    - identifier: blogs
+      name: Blogs
+      url: /posts/
+      weight: 30
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 40
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 50
+    - identifier: resume
+      name: Resume
+      url: /Resume.pdf
+      weight: 60
+      params:
+        external: true

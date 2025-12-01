@@ -1,0 +1,35 @@
+# Hugo build output
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Hugo lock file
+.hugo_build.lock
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Temporary files
+*.bak
+*.tmp
+*.log
+
+# Node modules (if using npm for any tooling)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment files
+.env
+.env.local

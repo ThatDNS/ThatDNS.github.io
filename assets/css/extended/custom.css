@@ -1,0 +1,100 @@
+/* Override theme width for better use of screen space */
+:root {
+  --main-width: 900px;
+}
+
+/* Project Content Wrapper - Flexbox for description and buttons */
+.project-content-wrapper {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  align-items: flex-start;
+}
+
+.project-description {
+  flex: 1;
+  min-width: 0;
+}
+
+.project-description p {
+  margin-bottom: 1rem;
+}
+
+.project-description p:last-child {
+  margin-bottom: 0;
+}
+
+/* Project Buttons - Stacked vertically on the right */
+.project-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.project-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--content);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.project-button:hover {
+  background-color: var(--theme);
+  border-color: var(--primary);
+}
+
+.project-button svg {
+  flex-shrink: 0;
+}
+
+/* Feature Grid Container */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+  max-width: 100%;
+}
+
+/* Feature Card */
+.feature-card {
+  background-color: var(--entry);
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  min-width: 300px;
+}
+
+.feature-card figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 4/3;
+}
+
+.feature-card figcaption {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: var(--secondary);
+  text-align: center;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
