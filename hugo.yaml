@@ -1,4 +1,4 @@
-baseURL: https://thatdns.dev/
+baseURL: "https://thatdns.dev/"
 languageCode: en-us
 title: ThatDNS
 theme: ["PaperMod"]
