@@ -58,7 +58,7 @@ menu:
       weight: 50
     - identifier: resume
       name: Resume
-      url: /Resume.pdf
+      url: /resume.pdf
       weight: 60
       params:
         external: true
