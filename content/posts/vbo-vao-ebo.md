@@ -1,7 +1,7 @@
 ---
 title: "The 'WHY' behind VBO, VAO, EBO in OpenGL"
 date: 2025-12-07T12:00:00+00:00
-draft: true
+draft: false
 tags: ["opengl", "cpp"]
 categories: ["rendering"]
 ---
