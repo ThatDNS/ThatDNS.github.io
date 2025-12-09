@@ -14,6 +14,9 @@ I'm assuming that this is not your first technical blog. You've already programm
 
 ## Why am I Writing This?
 
+{{< figure src="/vbo-vao-ebo-meme.jpg" width="350">}}
+_My Genuine Reaction When I Read VBO, VAO, EBO for the 1st Time!_
+
 After following the first couple of lessons in your OpenGL tutorial journey, you'd be able to draw a triangle on your screen. However, you may not fully understand what you're code is doing, or why you had to call the functions you called. I certainly felt this way when I started.
 
 This blog should help you there. I have intentionally kept less code in this blog post because the focus of this article is on the **'why'** instead of the **'how'**.
